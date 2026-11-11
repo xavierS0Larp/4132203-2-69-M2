@@ -1,0 +1,7 @@
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "8000:80"
+    volumes:
+      - ../LAB1:/usr/share/nginx/html
